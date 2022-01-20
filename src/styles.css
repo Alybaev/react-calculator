@@ -1,0 +1,16 @@
+.grid-calc {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: repeat(4, 4rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5, 4rem);
+}
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  background: rgb(90, 133, 214);
+  border: 0;
+  borderradius: 5;
+}
